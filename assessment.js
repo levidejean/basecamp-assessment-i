@@ -4,7 +4,7 @@ var myName = "Levi";
 
 // #2 create a variable called 'faveNum' and assign it to your favorite number
 
-var favNum = 8;
+var faveNum = 8;
 
 // #3 create a variable called 'lovesCode' and set it to true
 
@@ -12,11 +12,15 @@ var lovesCode = true;
 
 // #4 Using the previously created variables, create a new variable called 'me' that uses the myName and faveNum varible to create a sentence like this 'My name is Bryan and my favorite number is 3'
 
-var me = "My name is " +  myName + "and my favorite number is" +  favNum;
+var me = "My name is " +  myName + " and my favorite number is " +
+  faveNum;
 
-// #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should return true when comparing faveNum to your favorite number.v // HINT: Use a comparison operator
+// #5 Using the previously created faveNum variable, create a new 
+//variable called 'trueFaveNum'. *trueFaveNum* should return true when
+// comparing faveNum to your favorite number.v 
+// HINT: Use a comparison operator
 
-var trueFaveNum = favNum;
+var trueFaveNum = faveNum ===8;
 
 // #6 Create a new variable called notHakeem. Using the previously created myName variable, test that your name DOES NOT equal the string 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
 
@@ -50,7 +54,7 @@ var responseCreator = function(param){
     colorResponse = "I heart red";
   }
   else if(param === "green"){
-    colorResponse = "Green is ok";
+    colorResponse = "Green is okay";
   }
   else{
     colorResponse = "What is your favorite color?";
@@ -86,7 +90,7 @@ function sum(a){
 // with the appropriate values..
 
 function greeter(name, number) { 
-  return "Hi, I am " + name + " and I am " + number 
-  + " years old. I like turtles!!";
+  return "Hi! I am " + name + " and I am " + number 
+  + " years old";
 }
 
